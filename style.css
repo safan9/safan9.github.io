@@ -1,0 +1,44 @@
+body {
+            margin: 0;
+            padding: 0;
+            background-color: burlywood;
+        }
+        .container{
+            padding: 25px;
+            background-color: burlywood;
+            color: darkslategray;
+        }
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #header {
+            margin: 0;
+            padding: 25px;
+            background-color: orange;
+            color: black;
+        }
+        #portfolio {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: beige;
+            color: slategray;
+        }
+        .portfolio-item {
+            padding: 20px;
+            
+        }
+        .portfolio-item-title {
+            font-size: 2rem;
+        }
+
+        .item-image {
+            width: 150px;
+            height: 150px;
+        }
+        a {
+            color: slategray;
+            text-decoration: none;
+        }
